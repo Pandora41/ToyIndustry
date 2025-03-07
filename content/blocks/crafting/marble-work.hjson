@@ -1,0 +1,20 @@
+name: Marble Work
+type: genericCrafter
+description: "Turn marbles into marble balls."
+size: 2
+hasItems: true
+craftTime: 120
+craftEffect: smokeCloud
+consumes: {
+  items: {
+    items: [
+      marble/3
+    ]
+  }
+}
+requirements: [
+  marble/70
+]
+category: production
+research: marble
+outputItem: marble-balls/1

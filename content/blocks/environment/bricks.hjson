@@ -1,0 +1,7 @@
+type : OreBlock
+variants: 3
+itemDrop: bricks
+oreDefault : true
+oreScale : 24
+oreThreshold : 0.82
+playerUnmineable: false

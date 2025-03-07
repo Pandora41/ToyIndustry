@@ -1,0 +1,41 @@
+name: "Brick Turret"
+description: "Made from bricks also shoot bricks."
+type: ItemTurret
+size: 2
+health: 500
+range: 140
+targetGround: false
+targetAir: true
+shots: 2
+spread: 5.5
+alternate: true
+targetGround: true
+targetAir: false
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+maxAmmo: 40
+ammoTypes: {
+  bricks: {
+    type: BasicBulletType
+    width: 2
+    height: 4
+    frontColor: ff0000
+    sprite: brick-bullet
+    damage: 11
+    speed: 3
+    lifetime: 45
+    reloadMultiplier: 0.65
+    ammoMultiplier: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    hitEffect: flakExplosion
+    hitSound: bricks-break
+    despawnSound: bricks-break
+  }
+}
+requirements: [
+  bricks/90
+]
+category: turret
+research: bricks

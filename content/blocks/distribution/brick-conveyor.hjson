@@ -1,0 +1,16 @@
+name: Brick Conveyor
+type: Conveyor
+health: 55
+solid: false
+alwaysUnlocked: false
+description: 'Moves items forwards, like ordinary conveyor'
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+requirements: [
+  bricks/1
+]
+category: distribution
+speed: 0.055
+displayedSpeed: 1
+research: bricks

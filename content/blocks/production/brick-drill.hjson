@@ -1,0 +1,32 @@
+type: Drill
+name: Brick Drill
+description: Easy to assamble and ready to use.
+size: 1
+tier: 2
+drillTime: 400
+drawRim: true
+heatColor: E47AFF
+group : drills
+idleSound : drill
+idleSoundVolume : 0.003
+drillEffect : mine
+rotateSpeed : 2
+updateEffect : pulverizeSmall	
+updateEffectChance : 0.02
+liquidBoostIntensity : 1.7
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  bricks/4
+]
+category: production
+research: bricks
