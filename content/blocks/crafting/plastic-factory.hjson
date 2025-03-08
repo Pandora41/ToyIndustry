@@ -1,0 +1,22 @@
+name: Plastic Factory
+type: genericCrafter
+description: "Turn coals into plastic."
+size: 2
+hasItems: true
+hasPower: true
+craftTime: 120
+craftEffect: smokeCloud
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+  power: 6
+}
+requirements: [
+  marble/50
+]
+category: crafting
+research: bricks
+outputItem: plastic/1

@@ -1,0 +1,4 @@
+type: Floor
+variants: 4
+itemDrop: plastic
+playerUnmineable: true

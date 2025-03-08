@@ -1,0 +1,39 @@
+name: "Tuyul"
+description: "Defend your core Luna and build with this"
+type: flying
+flying: true
+health: 140
+speed: 9
+accel: 0.09
+drag: 0.2
+defaultController: BuilderAI
+buildSpeed: 0.75
+lightRadius: 2
+drawCell: true
+lowAltitude: true
+rotateToBuilding: true
+rotateSpeed: 10
+mineSpeed: 4
+mineTier: 2
+engineOffset: 7
+weapons: [
+  {
+    name: tuyul-gun
+    mirror: true
+    x: 0
+    y: 0
+    reload: 8
+    recoil: 0.3
+    shoot: {
+            barrels: 2
+            shots: 1
+            spread: 8
+            }
+    bullet: {
+        type: BasicBulletType
+        damage: 6
+        speed:7
+        lifetime: 25
+    }
+  }
+]

@@ -15,6 +15,6 @@ consumes: {
 requirements: [
   marble/70
 ]
-category: production
+category: crafting
 research: marble
 outputItem: marble-balls/1

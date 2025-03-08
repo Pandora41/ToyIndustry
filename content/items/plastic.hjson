@@ -1,0 +1,7 @@
+name: Plastic
+description: The most favourite ingridient to make toys.
+type : resource
+hardness: 1
+cost: 1
+research: bricks
+color: 1ec175

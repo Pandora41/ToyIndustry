@@ -1,0 +1,59 @@
+name: "Brick Tank"
+description: "Tank made from bricks"
+type: tank
+crushDamage: 2
+flying: false
+speed : 2.2
+accel : 0.2
+drownTimeMultiplier: 3
+health: 1050
+armor: 4
+aimDst: 10
+faceTarget: false
+rotateShooting : false
+range: 90
+rotateSpeed: 2
+lowAltitude: true
+omniMovement: true
+allowLegStep: false
+clipSize: 40
+hitSize: 40
+targetAir : false
+weapons: [
+  {
+    controllable: true
+    name: brick-blaster
+    x: 0
+    y: -5
+    yOffset: 32
+    rotationOffset: 32
+    shootY: 32
+    mirror: false
+    rotate: true
+    rotateSpeed: 2.2
+    recoil: 5.7
+    reload: 180
+    shootSound: bang
+    shake: 2.4
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 3
+      splashDamage: 525
+      splashDamageRadius: 40
+      width: 16
+      height: 22
+      hitShake: 2.3
+      despawnEffect: none
+      frontColor: e8895c 
+      backColor: d06b53
+      lightColor: ffa665
+      lifetime: 55
+      }
+    }
+]
+research: {
+  parent: launch-pad
+  objectives: [
+    bricks
+  ]
+}

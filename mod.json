@@ -1,8 +1,8 @@
 {
   "name": "toyindustry",
   "displayName": "Toy Industry",
-  "author": "Sancil",
+  "author": "Pandora",
   "description": "I hope you guys like my mod",
-  "version": "0.0.9",
-  "minGameVersion": "146"
+  "version": "0.0.20",
+  "minGameVersion": "136"
 }

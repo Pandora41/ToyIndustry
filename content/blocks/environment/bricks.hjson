@@ -5,3 +5,4 @@ oreDefault : true
 oreScale : 24
 oreThreshold : 0.82
 playerUnmineable: false
+damageTaken: 0.2

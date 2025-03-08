@@ -1,0 +1,36 @@
+type: ConsumeGenerator
+name: Marble Run
+description: "Use marbles to move the turbine and generates powers"
+powerProduction: 3
+health: 150
+size: 2
+hasItems: true
+hasPower: true
+itemCapacity: 5
+itemDuration: 150
+generateEffect: smoke
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+consumes: {
+  items: {
+    items: [
+      marble-balls/1
+    ]
+  }
+}
+requirements: [
+  bricks/25
+  plastic/20
+]
+category: power
+research: {
+  parent: launch-pad
+  requirements: [
+    marble/100
+    marble-balls/150
+  ]
+  objectives: [
+    marble-work
+  ]
+}

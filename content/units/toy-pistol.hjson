@@ -1,0 +1,44 @@
+name: "Toy Pistol"
+description: "Toy Pistol Soldier"
+flying: false
+type: mech
+hovering: false
+speed : 2
+drag: 1.1
+accel: 0.9
+health: 50
+armor: 0
+aimDst: 10
+range: 40
+rotateSpeed: 5
+baseRotateSpeed: 4
+clipSize: 1
+hitSize: 1
+weapons: [
+  {
+    controllable: true
+    name: toy-pistol-pistol
+    x: 0
+    y: 0
+    mirror: true
+    recoil: 2
+    reload: 20
+    shootSound: bang
+    shoot: {
+            barrels: 2
+            shots: 1
+            spread: 2
+            }
+    bullet: {
+      type: BasicBulletType
+      damage: 4
+      length: 50
+      }
+    }
+]
+research: {
+  parent: plastic
+  objectives: [
+    plastic
+  ]
+}

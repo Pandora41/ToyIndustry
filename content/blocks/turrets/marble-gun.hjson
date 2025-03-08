@@ -3,8 +3,8 @@ name: Marble Gun
 description: Shoot sprad marbles.
 health: 300
 size: 1
-reloadTime: 50
-maxAmmo: 6
+reload: 40
+maxAmmo: 8
 range: 75
 targetAir: false
 targetGround: true
@@ -12,19 +12,24 @@ ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 8
 coolantMultiplier: 6
-shots: 6
-spread: 1.5
+ammoPerShot: 4
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 5
+}
 ammoTypes: {
  marble-balls
 : {
-    speed: 5
-    damage: 40
-    width: 1
-    height: 1
+    speed: 2
+    damage: 6
+    width: 3
+    height: 3
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 6
     collidesAir: false
+    lifetime: 34
    }
 }
 requirements: [

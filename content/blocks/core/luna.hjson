@@ -1,0 +1,15 @@
+name: "Core: Luna"
+description: "Basic core made from bricks"
+Type: CoreBlock
+squareSprite: false
+health: 1200
+armor: 20
+itemCapacity: 4200
+size: 3
+category: effect
+unitType: tuyul
+unitCapModifier: 8
+thrusterLength: 15
+requirements: [
+  bricks/2000
+]

@@ -1,0 +1,15 @@
+name: "Brick Node"
+description: "Connect electricity"
+type: PowerNode
+size: 1
+maxNodes: 10
+laserRange: 6
+health: 40
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+category: power
+research: bricks
+requirements: [
+  bricks/3
+]

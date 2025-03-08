@@ -1,0 +1,21 @@
+name: Brick Maker
+type: genericCrafter
+description: "Make toy bricks from plastic."
+size: 1
+hasItems: true
+hasPower: true
+craftTime: 50
+craftEffect: smokeCloud
+consumes: {
+  items: {
+    items: [
+      plastic/2
+    ]
+  }
+}
+requirements: [
+  plastic/6
+]
+category: crafting
+research: plastic
+outputItem: bricks/1

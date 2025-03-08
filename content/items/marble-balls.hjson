@@ -4,3 +4,4 @@ type : resource
 hardness: 1
 cost: 3
 research: marble
+color : 1ec175

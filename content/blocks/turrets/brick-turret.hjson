@@ -2,15 +2,17 @@ name: "Brick Turret"
 description: "Made from bricks also shoot bricks."
 type: ItemTurret
 size: 2
-health: 500
-range: 140
-targetGround: false
-targetAir: true
-shots: 2
-spread: 5.5
+health: 520
+range: 150
+shoot: {
+  type: ShootAlternate
+  barrels: 2
+  shots: 1
+  spread: 5.5
+}
 alternate: true
 targetGround: true
-targetAir: false
+targetAir: true
 placeSound: bricks-build
 breakSound: bricks-break
 destroySound: bricks-break
@@ -24,7 +26,7 @@ ammoTypes: {
     sprite: brick-bullet
     damage: 11
     speed: 3
-    lifetime: 45
+    lifetime: 50
     reloadMultiplier: 0.65
     ammoMultiplier: 4
     shootEffect: shootSmall

@@ -1,0 +1,15 @@
+type: Wall
+name: "Block"
+description: "Protect you from danger."
+buildCostMultiplier : 4
+variants: 5
+solid : true
+destructible : true
+group : walls 
+health: 1000
+size: 2
+requirements: [
+  plastic/24
+]
+category: defense
+research: marble

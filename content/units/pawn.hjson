@@ -1,0 +1,39 @@
+name: "Pawn"
+description: "The weakest chess member"
+type: mech
+flying: false
+speed : 3
+health: 50
+armor: 0
+aimDst: 10
+range: 40
+rotateSpeed: 5
+lowAltitude: true
+omniMovement: true
+clipSize: 1
+hitSize: 1
+weapons: [
+  {
+    controllable: true
+    name: laser-pawn
+    x: 0
+    y: 0
+    mirror: false
+    recoil: 5.7
+    reload: 200
+    shootSound: bang
+    bullet: {
+      type: LaserBulletType
+      damage: 50
+      length: 50
+      width: 5
+      recoil: 0
+      }
+    }
+]
+research: {
+  parent: brick-tank
+  objectives: [
+    marble
+  ]
+}

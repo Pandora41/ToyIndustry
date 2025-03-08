@@ -1,0 +1,32 @@
+type: Drill
+name: Fidget Spinner
+description: To mine some ores.
+size: 2
+tier: 3
+drillTime: 120
+drawRim: true
+heatColor: E47AFF
+group : drills
+idleSound : drill
+idleSoundVolume : 0.008
+drillEffect : mine
+rotateSpeed : 4
+updateEffectChance : 0.02
+liquidBoostIntensity : 2
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.5
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  bricks/15
+  plastic/10
+]
+category: production
+research: brick-drill
