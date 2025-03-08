@@ -4,6 +4,7 @@ Type: CoreBlock
 squareSprite: false
 health: 1200
 armor: 20
+alwaysUnlocked: true
 itemCapacity: 4200
 size: 3
 category: effect
@@ -13,3 +14,8 @@ thrusterLength: 15
 requirements: [
   bricks/2000
 ]
+research: {
+  root: true,
+  name: "[#66B1FFFF]Core: Luna",
+  requiresUnlock: false
+}

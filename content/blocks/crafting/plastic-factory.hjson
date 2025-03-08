@@ -15,7 +15,8 @@ consumes: {
   power: 6
 }
 requirements: [
-  marble/50
+  copper/50
+  lead/80
 ]
 category: crafting
 research: bricks
