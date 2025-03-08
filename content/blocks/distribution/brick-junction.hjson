@@ -1,0 +1,16 @@
+name: Brick Junction
+type: Junction
+health: 35
+solid: false
+alwaysUnlocked: false
+description: 'Acts as a bridge for two crossing conveyor belts. Made with toy bricks.'
+placeSound: bricks-build
+breakSound: bricks-break
+destroySound: bricks-break
+requirements: [
+  bricks/2
+]
+category: distribution
+speed: 0.055
+displayedSpeed: 1
+research: brick-conveyor
