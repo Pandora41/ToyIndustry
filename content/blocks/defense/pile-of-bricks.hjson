@@ -6,13 +6,13 @@ variants: 3
 solid : true
 destructible : true
 group : walls 
-health: 1800
+health: 1300
 size: 2
 placeSound: bricks-build
 breakSound: bricks-break
 destroySound: bricks-break
 requirements: [
-  bricks/24
+  bricks/25
 ]
 category: defense
 research: stack-of-bricks

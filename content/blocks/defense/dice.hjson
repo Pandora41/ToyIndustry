@@ -1,0 +1,17 @@
+type: Wall
+name: "Dice"
+description: "Gamble your defence."
+buildCostMultiplier : 2
+variants: 6
+solid : true
+destructible : true
+group : walls 
+health: 1500
+size: 2
+breakSound: marble-break
+destroySound: marble-break
+requirements: [
+  marble/30
+]
+category: defense
+research: marble
