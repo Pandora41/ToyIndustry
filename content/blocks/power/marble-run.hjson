@@ -20,12 +20,12 @@ consumes: {
   }
 }
 requirements: [
-  bricks/25
-  plastic/20
+  bricks/50
+  plastic/70
 ]
 category: power
 research: {
-  parent: launch-pad
+  parent: luna
   requirements: [
     marble/100
     marble-balls/150

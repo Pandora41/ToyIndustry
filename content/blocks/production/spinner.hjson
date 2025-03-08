@@ -25,8 +25,8 @@ consumes: {
   }
 }
 requirements: [
-  bricks/15
-  plastic/10
+  bricks/22
+  plastic/12
 ]
 category: production
 research: brick-drill

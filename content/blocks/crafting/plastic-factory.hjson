@@ -3,6 +3,7 @@ type: genericCrafter
 description: "Turn coals into plastic."
 size: 2
 hasItems: true
+itemCapacity: 10
 hasPower: true
 craftTime: 120
 craftEffect: smokeCloud
@@ -12,12 +13,12 @@ consumes: {
       coal/1
     ]
   }
-  power: 6
+  power: 1
 }
 requirements: [
   copper/50
   lead/80
 ]
 category: crafting
-research: bricks
+research: luna
 outputItem: plastic/1

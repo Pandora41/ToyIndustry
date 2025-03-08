@@ -3,5 +3,5 @@ description: The most favourite ingridient to make toys.
 type : resource
 hardness: 1
 cost: 1
-research: bricks
+research: luna
 color: 1ec175

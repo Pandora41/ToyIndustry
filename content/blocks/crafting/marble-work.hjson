@@ -3,6 +3,8 @@ type: genericCrafter
 description: "Turn marbles into marble balls."
 size: 2
 hasItems: true
+itemCapacity: 10
+hasPower:true
 craftTime: 120
 craftEffect: smokeCloud
 consumes: {
@@ -11,10 +13,11 @@ consumes: {
       marble/3
     ]
   }
+  power: 1
 }
 requirements: [
   marble/70
 ]
 category: crafting
-research: marble
+research: marble-mixer
 outputItem: marble-balls/1

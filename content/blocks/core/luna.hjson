@@ -16,6 +16,6 @@ requirements: [
 ]
 research: {
   root: true,
-  name: "[#66B1FFFF]Core: Luna",
+  name: "[#F0B3FF]Core: Luna",
   requiresUnlock: false
 }

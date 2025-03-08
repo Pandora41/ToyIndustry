@@ -3,6 +3,7 @@ type: genericCrafter
 description: "Make toy bricks from plastic."
 size: 1
 hasItems: true
+itemCapacity: 10
 hasPower: true
 craftTime: 50
 craftEffect: smokeCloud
@@ -12,10 +13,11 @@ consumes: {
       plastic/2
     ]
   }
+  power: 1
 }
 requirements: [
-  plastic/6
+  plastic/40
 ]
 category: crafting
-research: plastic
+research: plastic-factory
 outputItem: bricks/1

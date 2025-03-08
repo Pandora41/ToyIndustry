@@ -9,7 +9,7 @@ placeSound: bricks-build
 breakSound: bricks-break
 destroySound: bricks-break
 category: power
-research: bricks
+research: marble-run
 requirements: [
   bricks/3
 ]

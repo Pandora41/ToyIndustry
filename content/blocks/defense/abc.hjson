@@ -1,5 +1,5 @@
 type: Wall
-name: "Block"
+name: "ABC Block"
 description: "Protect you from danger."
 buildCostMultiplier : 4
 variants: 5
@@ -12,4 +12,4 @@ requirements: [
   plastic/24
 ]
 category: defense
-research: plastic
+research: luna
