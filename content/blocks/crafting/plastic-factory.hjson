@@ -5,7 +5,7 @@ size: 2
 hasItems: true
 itemCapacity: 10
 hasPower: true
-craftTime: 120
+craftTime: 70
 craftEffect: smokeCloud
 consumes: {
   items: {

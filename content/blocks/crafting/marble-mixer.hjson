@@ -5,13 +5,13 @@ size: 2
 hasItems: true
 itemCapacity: 10
 hasPower:true
-craftTime: 120
+craftTime: 60
 craftEffect: smokeCloud
 consumes: {
   items: {
     items: [
       sand/2
-      graphite/2
+      graphite/1
     ]
   }
   power: 1

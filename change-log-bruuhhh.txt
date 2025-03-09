@@ -17,3 +17,4 @@ v0.0.20
 - balenced pile of bricks
 - Added marble mixer
 - Changed research tree
+- Balanced craftTime
