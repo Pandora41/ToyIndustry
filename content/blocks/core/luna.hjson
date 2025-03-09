@@ -16,6 +16,6 @@ requirements: [
 ]
 research: {
   root: true,
-  name: "[#F0B3FF]Core: Luna",
+  name: "[#F0B3FF]Toy Industry",
   requiresUnlock: false
 }
