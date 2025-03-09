@@ -1,0 +1,24 @@
+name: Marble Mixer
+type: genericCrafter
+description: "Mix graphite with sand to produce marble."
+size: 2
+hasItems: true
+itemCapacity: 10
+hasPower:true
+craftTime: 120
+craftEffect: smokeCloud
+consumes: {
+  items: {
+    items: [
+      sand/2
+      graphite/2
+    ]
+  }
+  power: 1
+}
+requirements: [
+  plastic/70
+]
+category: crafting
+research: plastic-factory
+outputItem: marble/1
