@@ -25,12 +25,12 @@ weapons: [
     name: brick-humvee-gun
     x: 0
     y: 0
-    shootY: 32
+    shootY: 5
     inaccuracy: 7
     mirror: false
     rotate: true
     rotateSpeed: 5
-    reload: 10
+    reload: 3
     parts: [
       {
         type: RegionPart
