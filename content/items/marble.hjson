@@ -3,5 +3,6 @@ description: Some toys are made from marble.
 type : resource
 hardness: 1
 cost: 3
-research: bricks
+research: plastic
+alwaysUnlocked: true
 color: f3f3f3

@@ -3,7 +3,7 @@ name: Brick Drill
 description: Easy to assamble and ready to use.
 size: 1
 tier: 2
-drillTime: 500
+drillTime: 510
 drawRim: true
 heatColor: E47AFF
 group : drills

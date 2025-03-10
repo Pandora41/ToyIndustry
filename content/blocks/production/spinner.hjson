@@ -3,7 +3,7 @@ name: Fidget Spinner
 description: To mine some ores.
 size: 2
 tier: 3
-drillTime: 120
+drillTime: 360
 drawRim: true
 heatColor: E47AFF
 group : drills

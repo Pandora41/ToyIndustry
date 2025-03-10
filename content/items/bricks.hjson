@@ -4,5 +4,6 @@ details: "Be carefull, you may step on it"
 type : resource
 hardness: 1
 cost: 1
-research: luna
+research: plastic
+alwaysUnlocked: true
 color: f04a4d
