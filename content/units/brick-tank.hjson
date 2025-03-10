@@ -7,7 +7,7 @@ speed : 0.66
 accel : 0.55
 drownTimeMultiplier: 3
 health: 5150
-armor: 12
+armor: 15
 aimDst: 15
 faceTarget: true
 range: 205
@@ -24,7 +24,7 @@ weapons: [
     controllable: true
     name: brick-blaster
     x: 0
-    y: -4
+    y: -12
     shootY: 32
     mirror: false
     rotate: true

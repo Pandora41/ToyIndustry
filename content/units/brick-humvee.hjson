@@ -1,13 +1,13 @@
 name: "Brick Humvee"
-description: "A littel humvee that fire minibrick bullets"
+description: "A little humvee that fire minibrick bullets"
 type: tank
-crushDamage: 2
+hitsize: 10
 flying: false
-speed : 0.66
-accel : 0.55
+speed : 1
+accel : 0.6
 drownTimeMultiplier: 3
-health: 5150
-armor: 12
+health: 1540
+armor: 13
 aimDst: 15
 faceTarget: true
 range: 150
@@ -16,9 +16,6 @@ rotateSpeed: 2
 lowAltitude: false
 omniMovement: false
 allowLegStep: false
-clipSize: 40
-hitSize: 40
-targetAir : false
 weapons: [
   {
     controllable: true
