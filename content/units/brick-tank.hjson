@@ -24,7 +24,7 @@ weapons: [
     controllable: true
     name: brick-blaster
     x: 0
-    y: -12
+    y: -4
     shootY: 32
     mirror: false
     rotate: true

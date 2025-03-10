@@ -19,3 +19,4 @@ v0.0.20
 - Changed research tree
 - Balanced craftTime
 - Added brick humvee
+Units isn't avaiable yet for now, the rest of the mod can be played
