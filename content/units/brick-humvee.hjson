@@ -32,15 +32,17 @@ weapons: [
     rotateSpeed: 5
     reload: 10
     parts: [
-      type: RegionPart
-      suffix: -barrel
-      moves: [
-        {
-          type: PartMove
-          progress: recoil
-          y = -0.2
-        }
-      ]
+      {
+        type: RegionPart
+        suffix: -barrel
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            y = -0.2
+          }
+        ]
+      }
     ]
     shootSound: shoot
     bullet: {
