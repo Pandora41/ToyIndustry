@@ -1,5 +1,5 @@
 name: "Brick Humvee"
-description: "Humvee made from bricks"
+description: "A littel humvee that fire minibrick bullets"
 type: tank
 crushDamage: 2
 flying: false
@@ -10,7 +10,7 @@ health: 5150
 armor: 12
 aimDst: 15
 faceTarget: true
-range: 205
+range: 150
 rotateMoveFirst: true
 rotateSpeed: 2
 lowAltitude: false
@@ -25,29 +25,37 @@ weapons: [
     name: brick-humvee-gun
     x: 0
     y: 0
-    yOffset: 32
-    rotationOffset: 32
     shootY: 32
+    inaccuracy: 7
     mirror: false
     rotate: true
-    rotateSpeed: 2.2
-    recoil: 5.7
-    reload: 180
-    shootSound: bang
-    shake: 2.4
+    rotateSpeed: 5
+    reload: 10
+    parts: [
+      type: RegionPart
+      suffix: -barrel
+      moves: [
+        {
+          type: PartMove
+          progress: recoil
+          y = -0.2
+        }
+      ]
+    ]
+    shootSound: shoot
     bullet: {
-      type: ArtilleryBulletType
-      speed: 3
-      splashDamage: 525
-      splashDamageRadius: 40
-      width: 16
-      height: 22
-      hitShake: 2.3
-      despawnEffect: none
-      frontColor: e8895c 
+      type: BasicBulletType
+      speed: 9
+      width: 1
+      height: 4
+      hitEffect: hitBulletSmall
+      despawnHit: true
+      damage: 3
+      trailLength: 5
+      frontColor: ffee99 
       backColor: d06b53
-      lightColor: ffa665
-      lifetime: 55
+      lightColor: fff9c4
+      lifetime: 22
       }
     }
 ]
