@@ -14,7 +14,7 @@ range: 205
 rotateMoveFirst: true
 rotateSpeed: 2
 lowAltitude: false
-omniMovement: flase
+omniMovement: false
 allowLegStep: false
 clipSize: 40
 hitSize: 40
