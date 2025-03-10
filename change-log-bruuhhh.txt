@@ -18,3 +18,4 @@ v0.0.20
 - Added marble mixer
 - Changed research tree
 - Balanced craftTime
+- Added brick humvee

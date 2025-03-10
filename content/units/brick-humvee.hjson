@@ -1,5 +1,5 @@
-name: "Brick Tank"
-description: "Tank made from bricks"
+name: "Brick Humvee"
+description: "Humvee made from bricks"
 type: tank
 crushDamage: 2
 flying: false
@@ -22,9 +22,9 @@ targetAir : false
 weapons: [
   {
     controllable: true
-    name: brick-blaster
+    name: brick-humvee-gun
     x: 0
-    y: -50
+    y: 0
     yOffset: 32
     rotationOffset: 32
     shootY: 32
