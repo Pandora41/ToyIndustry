@@ -1,0 +1,9 @@
+name: Paper
+description: Ingridient for light units and fireworks.
+flammability: 0.6
+type : resource
+hardness: 0.8
+lowPriority : true
+cost: 1
+research: plastic
+color: DBDCE4

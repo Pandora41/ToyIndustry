@@ -1,0 +1,9 @@
+name: Explosive Brick
+description: Primary for exploding ammunition and units.
+explosiveness: 1.5
+flammability: 0.2
+type : resource
+hardness: 2
+cost: 1.7
+research: bricks
+color: FF0000

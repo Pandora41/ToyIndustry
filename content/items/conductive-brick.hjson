@@ -1,0 +1,8 @@
+name: Conductive Brick
+description: Used for elecrical brick building and units.
+charge: 0.3
+type : resource
+hardness: 2
+cost: 1.3
+research: bricks
+color: E8895C

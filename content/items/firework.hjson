@@ -1,0 +1,7 @@
+name: Firework
+description: Happy new year.
+explosiveness: 1.7
+flammability: 1
+cost: 1
+research: crackling-balls
+color: C1C3D4

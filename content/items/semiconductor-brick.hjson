@@ -1,0 +1,8 @@
+name: Semiconductor Brick
+description: Used for electronics and logical bulding and units.
+charge: 0.5
+type : resource
+hardness: 1.5
+cost: 1.4
+research: conductive-brick
+color: 6E7080

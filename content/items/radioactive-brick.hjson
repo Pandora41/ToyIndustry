@@ -1,0 +1,8 @@
+name: Radioactive Brick
+description: Used in reactors and units.
+radioactivity: 1
+type : resource
+hardness: 1
+cost: 1.3
+research: bricks
+color: 7AFF44

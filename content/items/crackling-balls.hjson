@@ -1,0 +1,7 @@
+name: Cracking Balls
+description: Pop when it throwed.
+explosiveness: 1.4
+flammability: 0.2
+cost: 1.1
+research: marble-balls
+color: 1D1D23

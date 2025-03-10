@@ -1,0 +1,24 @@
+name: Plastic Factory
+type: genericCrafter
+description: "Turn coals into plastic."
+size: 2
+hasItems: true
+itemCapacity: 10
+hasPower: true
+craftTime: 70
+craftEffect: smokeCloud
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+  power: 1
+}
+requirements: [
+  copper/50
+  lead/80
+]
+category: crafting
+research: luna
+outputItem: plastic/1

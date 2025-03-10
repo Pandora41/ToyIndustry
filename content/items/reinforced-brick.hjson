@@ -1,0 +1,7 @@
+name: Reinforced Brick
+description: Strong bricks, durable for walls, and better units.
+type : resource
+hardness: 4
+cost: 2
+research: conductive-brick
+color: 319BE4
