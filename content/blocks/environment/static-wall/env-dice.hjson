@@ -2,6 +2,6 @@ name: Environment wall dice
 type: StaticWall
 solid: true
 playerUnmineable: true
-attributes:[
-    marble
-]
+attributes:{
+    marble: 1
+}
