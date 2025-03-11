@@ -1,7 +1,6 @@
 name: Environment wall dice
 type: StaticWall
 itemDrop: marble
-size: 2
 solid: true
 playerUnmineable: true
-variants: 6
+attributes: marble

@@ -25,3 +25,4 @@ v0.0.21
 - Added cardboard, cogwheel, conductive-brick, crackling-balls, explosive-brick, firework, paper, plastic-balls, polyester, radioactive-brick, radium, reinforced-brick, rubber, and semiconductor-brick item
 - Added black-marble variant
 - Added dice static wall
+- Added dice drill
