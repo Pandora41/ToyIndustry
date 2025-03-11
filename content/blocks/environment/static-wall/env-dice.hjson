@@ -3,5 +3,5 @@ type: StaticWall
 solid: true
 playerUnmineable: true
 attributes:{
-    marble: 1
+    marble: 2
 }
