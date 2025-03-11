@@ -1,17 +1,20 @@
 type: Wall
-name: "Dice"
-description: "Gamble your defence."
-buildCostMultiplier : 2
+name: "Wall Dice"
+description: "Made from marble, it may absorb and deflect bullet."
+buildCostMultiplier : 1.5
 variants: 6
 solid : true
 destructible : true
 group : walls 
 health: 1500
+armor: 2
 size: 2
 breakSound: marble-break
 destroySound: marble-break
+chanceDeflect: 0.3
+deflectSound: marble-hit
 requirements: [
-  marble/30
+  marble/32
 ]
 category: defense
 research: abc

@@ -1,0 +1,6 @@
+type: Wall
+itemDrop: marble
+size: 2
+solid: true
+playerUnmineable: true
+variants: 6
