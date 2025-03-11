@@ -27,7 +27,5 @@ requirements: [
 ]
 category: production
 research: brick-drill
-attribute: {
-  marble
-}
+attribute: marble
 output: marble
