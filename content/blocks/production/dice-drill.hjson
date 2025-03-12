@@ -2,6 +2,9 @@ type: WallCrafter
 name: Dice Drill
 description: Only use this for small dice.
 size: 2
+hasItems: true
+itemCapacity: 10
+hasPower:true
 drillTime: 150
 group : drills
 idleSound : drill
