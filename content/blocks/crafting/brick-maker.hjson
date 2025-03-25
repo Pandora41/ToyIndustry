@@ -19,5 +19,5 @@ requirements: [
   plastic/40
 ]
 category: crafting
-research: plastic-factory
+research: luna
 outputItem: bricks/1

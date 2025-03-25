@@ -27,8 +27,9 @@ category: power
 research: {
   parent: luna
   requirements: [
-    marble/100
-    marble-balls/150
+    bricks/40
+    conductive-brick/60
+    plastic/20
   ]
   objectives: [
     marble-work

@@ -6,7 +6,7 @@ flying: false
 speed : 1
 accel : 0.6
 drownTimeMultiplier: 3
-health: 1540
+health: 750
 armor: 13
 aimDst: 15
 faceTarget: true

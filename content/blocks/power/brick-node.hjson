@@ -11,5 +11,6 @@ destroySound: bricks-break
 category: power
 research: marble-run
 requirements: [
-  bricks/3
+  bricks/2
+  conductive-brick/1
 ]

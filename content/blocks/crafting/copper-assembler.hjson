@@ -1,6 +1,6 @@
 name: Copper Assembler
 type: genericCrafter
-description: "Turn coals into plastic."
+description: "Mix copper with bricks to make conductive brick."
 size: 2
 hasItems: true
 itemCapacity: 10
@@ -10,15 +10,15 @@ craftEffect: smokeCloud
 consumes: {
   items: {
     items: [
-      coal/1
+      bricks/1
+      copper/2
     ]
   }
   power: 1
 }
 requirements: [
-  copper/50
-  lead/80
+  bricks/50
 ]
 category: crafting
-research: luna
+research: plastic-factory
 outputItem: plastic/1
