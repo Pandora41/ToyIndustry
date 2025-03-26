@@ -32,6 +32,14 @@ ammoTypes: {
     lifetime: 34
    }
 }
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+    optional: true
+  }
+}
 requirements: [
    marble/50
    marble-balls/6

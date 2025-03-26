@@ -36,6 +36,14 @@ ammoTypes: {
     despawnSound: bricks-break
   }
 }
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+    optional: true
+  }
+}
 requirements: [
   bricks/90
 ]

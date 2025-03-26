@@ -1,10 +1,10 @@
 type: WallCrafter
-name: Dice Drill
-description: Only use this for small dice.
+name: Plastic Harvester
+description: Harvest plastics from toys.
 size: 2
 hasItems: true
 itemCapacity: 10
-hasPower:true
+hasPower:false
 drillTime: 150
 group : drills
 idleSound : drill
@@ -16,14 +16,17 @@ placeSound: bricks-build
 breakSound: bricks-break
 destroySound: bricks-break
 consumes: {
-  power: 1
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+    optional: true
+  }
 }
 requirements: [
-  bricks/10
-  conductive-brick/10
-  plastic/14
+  bricks/24
 ]
 category: production
 research: brick-drill
-attribute: marble
-output: marble
+attribute: plastic
+output: plastic

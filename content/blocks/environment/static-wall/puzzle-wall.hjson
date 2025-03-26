@@ -1,8 +1,8 @@
-name: Environment wall dice
+name: Puzzle Wall
 type: StaticWall
 solid: true
 playerUnmineable: true
 variants: 6
 attributes:{
-    marble: 2
+    plastic: 2
 }

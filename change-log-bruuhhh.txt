@@ -26,3 +26,8 @@ v0.0.21
 - Added black-marble variant
 - Added dice static wall
 - Added dice drill
+- Removed dice drill
+- Removed dice static-wall
+- Added puzzle-wall
+- Added plastic-Harvester
+- Added and changed some env blocks
